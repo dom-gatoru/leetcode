@@ -1,10 +1,6 @@
 <?php
 class Solution {
 
-    function main(){
-
-    }
-
     /**
      * @param Integer[] $nums
      * @param Integer $target
