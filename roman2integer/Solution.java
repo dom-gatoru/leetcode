@@ -1,13 +1,13 @@
 class Solution {
     public int romanToInt(String s) {
         Map map 
-            = Map.of("I",new Integer(1), 
-                     "V",new Integer(5), 
-                     "X",new Integer(10),
-                     "L",new Integer(50),
-                     "C",new Integer(100),
-                     "D",new Integer(500),
-                     "M",new Integer(1000));
+            = Map.of("I",Integer.valueOf(1), 
+                     "V",Integer.valueOf(5), 
+                     "X",Integer.valueOf(10),
+                     "L",Integer.valueOf(50),
+                     "C",Integer.valueOf(100),
+                     "D",Integer.valueOf(500),
+                     "M",Integer.valueOf(1000));
 
         char[] ch = s.toCharArray();
         int result = 0;
